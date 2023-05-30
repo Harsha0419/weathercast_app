@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">1045292292228-2u212i7j1q30rchb19t25tf9f2g33ise.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://weather-e2001.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">1045292292228</string>
+    <string name="google_api_key" translatable="false">AIzaSyAKLQH8si7vbvG_-z47Xido5PGnTJPa_F4</string>
+    <string name="google_app_id" translatable="false">1:1045292292228:android:f302f03692874e09</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAKLQH8si7vbvG_-z47Xido5PGnTJPa_F4</string>
+    <string name="google_storage_bucket" translatable="false">weather-e2001.appspot.com</string>
+    <string name="project_id" translatable="false">weather-e2001</string>
+</resources>

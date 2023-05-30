@@ -1,0 +1,46 @@
+[
+    {
+        "merged": "C:\\Users\\palag\\Downloads\\Compressed\\weather-master\\weather-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\weather_hourly_item.xml",
+        "source": "C:\\Users\\palag\\Downloads\\Compressed\\weather-master\\weather-master\\app\\src\\main\\res\\layout\\weather_hourly_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\palag\\Downloads\\Compressed\\weather-master\\weather-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
+        "source": "C:\\Users\\palag\\Downloads\\Compressed\\weather-master\\weather-master\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\palag\\Downloads\\Compressed\\weather-master\\weather-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\content_main.xml",
+        "source": "C:\\Users\\palag\\Downloads\\Compressed\\weather-master\\weather-master\\app\\src\\main\\res\\layout\\content_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\palag\\Downloads\\Compressed\\weather-master\\weather-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\toolbar.xml",
+        "source": "C:\\Users\\palag\\Downloads\\Compressed\\weather-master\\weather-master\\app\\src\\main\\res\\layout\\toolbar.xml"
+    },
+    {
+        "merged": "C:\\Users\\palag\\Downloads\\Compressed\\weather-master\\weather-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_multiple_days.xml",
+        "source": "C:\\Users\\palag\\Downloads\\Compressed\\weather-master\\weather-master\\app\\src\\main\\res\\layout\\fragment_multiple_days.xml"
+    },
+    {
+        "merged": "C:\\Users\\palag\\Downloads\\Compressed\\weather-master\\weather-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_hourly.xml",
+        "source": "C:\\Users\\palag\\Downloads\\Compressed\\weather-master\\weather-master\\app\\src\\main\\res\\layout\\activity_hourly.xml"
+    },
+    {
+        "merged": "C:\\Users\\palag\\Downloads\\Compressed\\weather-master\\weather-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\weather_day_item.xml",
+        "source": "C:\\Users\\palag\\Downloads\\Compressed\\weather-master\\weather-master\\app\\src\\main\\res\\layout\\weather_day_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\palag\\Downloads\\Compressed\\weather-master\\weather-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\multiple_days_item.xml",
+        "source": "C:\\Users\\palag\\Downloads\\Compressed\\weather-master\\weather-master\\app\\src\\main\\res\\layout\\multiple_days_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\palag\\Downloads\\Compressed\\weather-master\\weather-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_about.xml",
+        "source": "C:\\Users\\palag\\Downloads\\Compressed\\weather-master\\weather-master\\app\\src\\main\\res\\layout\\fragment_about.xml"
+    },
+    {
+        "merged": "C:\\Users\\palag\\Downloads\\Compressed\\weather-master\\weather-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\dialog_set_appid.xml",
+        "source": "C:\\Users\\palag\\Downloads\\Compressed\\weather-master\\weather-master\\app\\src\\main\\res\\layout\\dialog_set_appid.xml"
+    },
+    {
+        "merged": "C:\\Users\\palag\\Downloads\\Compressed\\weather-master\\weather-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\content_empty.xml",
+        "source": "C:\\Users\\palag\\Downloads\\Compressed\\weather-master\\weather-master\\app\\src\\main\\res\\layout\\content_empty.xml"
+    }
+]

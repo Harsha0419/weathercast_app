@@ -1,0 +1,185 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.github.bkhezry.weather"
+4    android:versionCode="20203"
+5    android:versionName="2.2.3" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\palag\Downloads\Compressed\weather-master\weather-master\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->C:\Users\palag\Downloads\Compressed\weather-master\weather-master\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\palag\Downloads\Compressed\weather-master\weather-master\app\src\main\AndroidManifest.xml:5:5-67
+11-->C:\Users\palag\Downloads\Compressed\weather-master\weather-master\app\src\main\AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->[com.google.android.gms:play-services-measurement-api:19.0.2] C:\Users\palag\.gradle\caches\transforms-3\276328ea7c1a8b60ab790fabf50d8e70\transformed\jetified-play-services-measurement-api-19.0.2\AndroidManifest.xml:23:5-79
+12-->[com.google.android.gms:play-services-measurement-api:19.0.2] C:\Users\palag\.gradle\caches\transforms-3\276328ea7c1a8b60ab790fabf50d8e70\transformed\jetified-play-services-measurement-api-19.0.2\AndroidManifest.xml:23:22-76
+13    <uses-permission android:name="android.permission.WAKE_LOCK" />
+13-->[com.google.android.gms:play-services-measurement-api:19.0.2] C:\Users\palag\.gradle\caches\transforms-3\276328ea7c1a8b60ab790fabf50d8e70\transformed\jetified-play-services-measurement-api-19.0.2\AndroidManifest.xml:24:5-68
+13-->[com.google.android.gms:play-services-measurement-api:19.0.2] C:\Users\palag\.gradle\caches\transforms-3\276328ea7c1a8b60ab790fabf50d8e70\transformed\jetified-play-services-measurement-api-19.0.2\AndroidManifest.xml:24:22-65
+14    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+14-->[com.google.android.gms:play-services-measurement:19.0.2] C:\Users\palag\.gradle\caches\transforms-3\418572d84939f1a4176377fc2e22b553\transformed\jetified-play-services-measurement-19.0.2\AndroidManifest.xml:26:5-110
+14-->[com.google.android.gms:play-services-measurement:19.0.2] C:\Users\palag\.gradle\caches\transforms-3\418572d84939f1a4176377fc2e22b553\transformed\jetified-play-services-measurement-19.0.2\AndroidManifest.xml:26:22-107
+15
+16    <application
+16-->C:\Users\palag\Downloads\Compressed\weather-master\weather-master\app\src\main\AndroidManifest.xml:7:5-30:19
+17        android:name="com.github.bkhezry.weather.utils.MyApplication"
+17-->C:\Users\palag\Downloads\Compressed\weather-master\weather-master\app\src\main\AndroidManifest.xml:8:9-44
+18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+18-->[androidx.core:core:1.5.0] C:\Users\palag\.gradle\caches\transforms-3\79424cfcec2ff75acf4225e89a3980bb\transformed\core-1.5.0\AndroidManifest.xml:24:18-86
+19        android:debuggable="true"
+20        android:fullBackupContent="true"
+20-->C:\Users\palag\Downloads\Compressed\weather-master\weather-master\app\src\main\AndroidManifest.xml:9:9-41
+21        android:icon="@mipmap/ic_launcher"
+21-->C:\Users\palag\Downloads\Compressed\weather-master\weather-master\app\src\main\AndroidManifest.xml:10:9-43
+22        android:label="@string/app_name"
+22-->C:\Users\palag\Downloads\Compressed\weather-master\weather-master\app\src\main\AndroidManifest.xml:11:9-41
+23        android:supportsRtl="true"
+23-->C:\Users\palag\Downloads\Compressed\weather-master\weather-master\app\src\main\AndroidManifest.xml:12:9-35
+24        android:testOnly="true"
+25        android:theme="@style/AppTheme" >
+25-->C:\Users\palag\Downloads\Compressed\weather-master\weather-master\app\src\main\AndroidManifest.xml:13:9-40
+26        <activity
+26-->C:\Users\palag\Downloads\Compressed\weather-master\weather-master\app\src\main\AndroidManifest.xml:14:9-17:54
+27            android:name="com.github.bkhezry.weather.ui.activity.HourlyActivity"
+27-->C:\Users\palag\Downloads\Compressed\weather-master\weather-master\app\src\main\AndroidManifest.xml:15:13-55
+28            android:exported="true"
+28-->C:\Users\palag\Downloads\Compressed\weather-master\weather-master\app\src\main\AndroidManifest.xml:16:13-36
+29            android:theme="@style/TransitionTheme" />
+29-->C:\Users\palag\Downloads\Compressed\weather-master\weather-master\app\src\main\AndroidManifest.xml:17:13-51
+30        <activity
+30-->C:\Users\palag\Downloads\Compressed\weather-master\weather-master\app\src\main\AndroidManifest.xml:18:9-28:20
+31            android:name="com.github.bkhezry.weather.ui.activity.MainActivity"
+31-->C:\Users\palag\Downloads\Compressed\weather-master\weather-master\app\src\main\AndroidManifest.xml:19:13-53
+32            android:exported="true"
+32-->C:\Users\palag\Downloads\Compressed\weather-master\weather-master\app\src\main\AndroidManifest.xml:20:13-36
+33            android:screenOrientation="portrait"
+33-->C:\Users\palag\Downloads\Compressed\weather-master\weather-master\app\src\main\AndroidManifest.xml:21:13-49
+34            android:windowSoftInputMode="stateHidden" >
+34-->C:\Users\palag\Downloads\Compressed\weather-master\weather-master\app\src\main\AndroidManifest.xml:22:13-54
+35            <intent-filter>
+35-->C:\Users\palag\Downloads\Compressed\weather-master\weather-master\app\src\main\AndroidManifest.xml:23:13-27:29
+36                <action android:name="android.intent.action.MAIN" />
+36-->C:\Users\palag\Downloads\Compressed\weather-master\weather-master\app\src\main\AndroidManifest.xml:24:17-69
+36-->C:\Users\palag\Downloads\Compressed\weather-master\weather-master\app\src\main\AndroidManifest.xml:24:25-66
+37
+38                <category android:name="android.intent.category.LAUNCHER" />
+38-->C:\Users\palag\Downloads\Compressed\weather-master\weather-master\app\src\main\AndroidManifest.xml:26:17-77
+38-->C:\Users\palag\Downloads\Compressed\weather-master\weather-master\app\src\main\AndroidManifest.xml:26:27-74
+39            </intent-filter>
+40        </activity>
+41        <activity android:name="com.github.bkhezry.weather.ui.activity.BaseActivity" />
+41-->C:\Users\palag\Downloads\Compressed\weather-master\weather-master\app\src\main\AndroidManifest.xml:29:9-62
+41-->C:\Users\palag\Downloads\Compressed\weather-master\weather-master\app\src\main\AndroidManifest.xml:29:19-59
+42
+43        <service
+43-->[com.google.firebase:firebase-crashlytics:18.2.3] C:\Users\palag\.gradle\caches\transforms-3\17d6dcc04035fe5f60b1911e38492093\transformed\jetified-firebase-crashlytics-18.2.3\AndroidManifest.xml:15:9-21:19
+44            android:name="com.google.firebase.components.ComponentDiscoveryService"
+44-->[com.google.firebase:firebase-crashlytics:18.2.3] C:\Users\palag\.gradle\caches\transforms-3\17d6dcc04035fe5f60b1911e38492093\transformed\jetified-firebase-crashlytics-18.2.3\AndroidManifest.xml:16:13-84
+45            android:directBootAware="true"
+45-->[com.google.firebase:firebase-common:20.0.0] C:\Users\palag\.gradle\caches\transforms-3\54b626b40593e6eef88c76855eb34b5e\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:35:13-43
+46            android:exported="false" >
+46-->[com.google.firebase:firebase-crashlytics:18.2.3] C:\Users\palag\.gradle\caches\transforms-3\17d6dcc04035fe5f60b1911e38492093\transformed\jetified-firebase-crashlytics-18.2.3\AndroidManifest.xml:17:13-37
+47            <meta-data
+47-->[com.google.firebase:firebase-crashlytics:18.2.3] C:\Users\palag\.gradle\caches\transforms-3\17d6dcc04035fe5f60b1911e38492093\transformed\jetified-firebase-crashlytics-18.2.3\AndroidManifest.xml:18:13-20:85
+48                android:name="com.google.firebase.components:com.google.firebase.crashlytics.CrashlyticsRegistrar"
+48-->[com.google.firebase:firebase-crashlytics:18.2.3] C:\Users\palag\.gradle\caches\transforms-3\17d6dcc04035fe5f60b1911e38492093\transformed\jetified-firebase-crashlytics-18.2.3\AndroidManifest.xml:19:17-115
+49                android:value="com.google.firebase.components.ComponentRegistrar" />
+49-->[com.google.firebase:firebase-crashlytics:18.2.3] C:\Users\palag\.gradle\caches\transforms-3\17d6dcc04035fe5f60b1911e38492093\transformed\jetified-firebase-crashlytics-18.2.3\AndroidManifest.xml:20:17-82
+50            <meta-data
+50-->[com.google.android.gms:play-services-measurement-api:19.0.2] C:\Users\palag\.gradle\caches\transforms-3\276328ea7c1a8b60ab790fabf50d8e70\transformed\jetified-play-services-measurement-api-19.0.2\AndroidManifest.xml:30:13-32:85
+51                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+51-->[com.google.android.gms:play-services-measurement-api:19.0.2] C:\Users\palag\.gradle\caches\transforms-3\276328ea7c1a8b60ab790fabf50d8e70\transformed\jetified-play-services-measurement-api-19.0.2\AndroidManifest.xml:31:17-139
+52                android:value="com.google.firebase.components.ComponentRegistrar" />
+52-->[com.google.android.gms:play-services-measurement-api:19.0.2] C:\Users\palag\.gradle\caches\transforms-3\276328ea7c1a8b60ab790fabf50d8e70\transformed\jetified-play-services-measurement-api-19.0.2\AndroidManifest.xml:32:17-82
+53            <meta-data
+53-->[com.google.firebase:firebase-installations:17.0.0] C:\Users\palag\.gradle\caches\transforms-3\c16d398869c2970707e210acc399b2b1\transformed\jetified-firebase-installations-17.0.0\AndroidManifest.xml:18:13-20:85
+54                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+54-->[com.google.firebase:firebase-installations:17.0.0] C:\Users\palag\.gradle\caches\transforms-3\c16d398869c2970707e210acc399b2b1\transformed\jetified-firebase-installations-17.0.0\AndroidManifest.xml:19:17-127
+55                android:value="com.google.firebase.components.ComponentRegistrar" />
+55-->[com.google.firebase:firebase-installations:17.0.0] C:\Users\palag\.gradle\caches\transforms-3\c16d398869c2970707e210acc399b2b1\transformed\jetified-firebase-installations-17.0.0\AndroidManifest.xml:20:17-82
+56        </service>
+57
+58        <provider
+58-->[com.google.firebase:firebase-common:20.0.0] C:\Users\palag\.gradle\caches\transforms-3\54b626b40593e6eef88c76855eb34b5e\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:26:9-31:39
+59            android:name="com.google.firebase.provider.FirebaseInitProvider"
+59-->[com.google.firebase:firebase-common:20.0.0] C:\Users\palag\.gradle\caches\transforms-3\54b626b40593e6eef88c76855eb34b5e\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:27:13-77
+60            android:authorities="com.github.bkhezry.weather.firebaseinitprovider"
+60-->[com.google.firebase:firebase-common:20.0.0] C:\Users\palag\.gradle\caches\transforms-3\54b626b40593e6eef88c76855eb34b5e\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:28:13-72
+61            android:directBootAware="true"
+61-->[com.google.firebase:firebase-common:20.0.0] C:\Users\palag\.gradle\caches\transforms-3\54b626b40593e6eef88c76855eb34b5e\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:29:13-43
+62            android:exported="false"
+62-->[com.google.firebase:firebase-common:20.0.0] C:\Users\palag\.gradle\caches\transforms-3\54b626b40593e6eef88c76855eb34b5e\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:30:13-37
+63            android:initOrder="100" />
+63-->[com.google.firebase:firebase-common:20.0.0] C:\Users\palag\.gradle\caches\transforms-3\54b626b40593e6eef88c76855eb34b5e\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:31:13-36
+64
+65        <receiver
+65-->[com.google.android.gms:play-services-measurement:19.0.2] C:\Users\palag\.gradle\caches\transforms-3\418572d84939f1a4176377fc2e22b553\transformed\jetified-play-services-measurement-19.0.2\AndroidManifest.xml:29:9-33:20
+66            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+66-->[com.google.android.gms:play-services-measurement:19.0.2] C:\Users\palag\.gradle\caches\transforms-3\418572d84939f1a4176377fc2e22b553\transformed\jetified-play-services-measurement-19.0.2\AndroidManifest.xml:30:13-85
+67            android:enabled="true"
+67-->[com.google.android.gms:play-services-measurement:19.0.2] C:\Users\palag\.gradle\caches\transforms-3\418572d84939f1a4176377fc2e22b553\transformed\jetified-play-services-measurement-19.0.2\AndroidManifest.xml:31:13-35
+68            android:exported="false" >
+68-->[com.google.android.gms:play-services-measurement:19.0.2] C:\Users\palag\.gradle\caches\transforms-3\418572d84939f1a4176377fc2e22b553\transformed\jetified-play-services-measurement-19.0.2\AndroidManifest.xml:32:13-37
+69        </receiver>
+70
+71        <service
+71-->[com.google.android.gms:play-services-measurement:19.0.2] C:\Users\palag\.gradle\caches\transforms-3\418572d84939f1a4176377fc2e22b553\transformed\jetified-play-services-measurement-19.0.2\AndroidManifest.xml:35:9-38:40
+72            android:name="com.google.android.gms.measurement.AppMeasurementService"
+72-->[com.google.android.gms:play-services-measurement:19.0.2] C:\Users\palag\.gradle\caches\transforms-3\418572d84939f1a4176377fc2e22b553\transformed\jetified-play-services-measurement-19.0.2\AndroidManifest.xml:36:13-84
+73            android:enabled="true"
+73-->[com.google.android.gms:play-services-measurement:19.0.2] C:\Users\palag\.gradle\caches\transforms-3\418572d84939f1a4176377fc2e22b553\transformed\jetified-play-services-measurement-19.0.2\AndroidManifest.xml:37:13-35
+74            android:exported="false" />
+74-->[com.google.android.gms:play-services-measurement:19.0.2] C:\Users\palag\.gradle\caches\transforms-3\418572d84939f1a4176377fc2e22b553\transformed\jetified-play-services-measurement-19.0.2\AndroidManifest.xml:38:13-37
+75        <service
+75-->[com.google.android.gms:play-services-measurement:19.0.2] C:\Users\palag\.gradle\caches\transforms-3\418572d84939f1a4176377fc2e22b553\transformed\jetified-play-services-measurement-19.0.2\AndroidManifest.xml:39:9-43:72
+76            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+76-->[com.google.android.gms:play-services-measurement:19.0.2] C:\Users\palag\.gradle\caches\transforms-3\418572d84939f1a4176377fc2e22b553\transformed\jetified-play-services-measurement-19.0.2\AndroidManifest.xml:40:13-87
+77            android:enabled="true"
+77-->[com.google.android.gms:play-services-measurement:19.0.2] C:\Users\palag\.gradle\caches\transforms-3\418572d84939f1a4176377fc2e22b553\transformed\jetified-play-services-measurement-19.0.2\AndroidManifest.xml:41:13-35
+78            android:exported="false"
+78-->[com.google.android.gms:play-services-measurement:19.0.2] C:\Users\palag\.gradle\caches\transforms-3\418572d84939f1a4176377fc2e22b553\transformed\jetified-play-services-measurement-19.0.2\AndroidManifest.xml:42:13-37
+79            android:permission="android.permission.BIND_JOB_SERVICE" />
+79-->[com.google.android.gms:play-services-measurement:19.0.2] C:\Users\palag\.gradle\caches\transforms-3\418572d84939f1a4176377fc2e22b553\transformed\jetified-play-services-measurement-19.0.2\AndroidManifest.xml:43:13-69
+80
+81        <meta-data
+81-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\palag\.gradle\caches\transforms-3\3e1faf33b1f48cea6ae4aa74d1b7c9c5\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+82            android:name="com.google.android.gms.version"
+82-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\palag\.gradle\caches\transforms-3\3e1faf33b1f48cea6ae4aa74d1b7c9c5\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+83            android:value="@integer/google_play_services_version" />
+83-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\palag\.gradle\caches\transforms-3\3e1faf33b1f48cea6ae4aa74d1b7c9c5\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+84
+85        <service
+85-->[com.google.android.datatransport:transport-backend-cct:3.0.0] C:\Users\palag\.gradle\caches\transforms-3\f3bdbf2bda2715168b61f902be8ee5c7\transformed\jetified-transport-backend-cct-3.0.0\AndroidManifest.xml:29:9-35:19
+86            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+86-->[com.google.android.datatransport:transport-backend-cct:3.0.0] C:\Users\palag\.gradle\caches\transforms-3\f3bdbf2bda2715168b61f902be8ee5c7\transformed\jetified-transport-backend-cct-3.0.0\AndroidManifest.xml:30:13-103
+87            android:exported="false" >
+87-->[com.google.android.datatransport:transport-backend-cct:3.0.0] C:\Users\palag\.gradle\caches\transforms-3\f3bdbf2bda2715168b61f902be8ee5c7\transformed\jetified-transport-backend-cct-3.0.0\AndroidManifest.xml:31:13-37
+88            <meta-data
+88-->[com.google.android.datatransport:transport-backend-cct:3.0.0] C:\Users\palag\.gradle\caches\transforms-3\f3bdbf2bda2715168b61f902be8ee5c7\transformed\jetified-transport-backend-cct-3.0.0\AndroidManifest.xml:32:13-34:39
+89                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+89-->[com.google.android.datatransport:transport-backend-cct:3.0.0] C:\Users\palag\.gradle\caches\transforms-3\f3bdbf2bda2715168b61f902be8ee5c7\transformed\jetified-transport-backend-cct-3.0.0\AndroidManifest.xml:33:17-94
+90                android:value="cct" />
+90-->[com.google.android.datatransport:transport-backend-cct:3.0.0] C:\Users\palag\.gradle\caches\transforms-3\f3bdbf2bda2715168b61f902be8ee5c7\transformed\jetified-transport-backend-cct-3.0.0\AndroidManifest.xml:34:17-36
+91        </service>
+92        <service
+92-->[com.google.android.datatransport:transport-runtime:3.0.1] C:\Users\palag\.gradle\caches\transforms-3\9ffaec3cbec165b5a033426aee590dd3\transformed\jetified-transport-runtime-3.0.1\AndroidManifest.xml:26:9-30:19
+93            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+93-->[com.google.android.datatransport:transport-runtime:3.0.1] C:\Users\palag\.gradle\caches\transforms-3\9ffaec3cbec165b5a033426aee590dd3\transformed\jetified-transport-runtime-3.0.1\AndroidManifest.xml:27:13-117
+94            android:exported="false"
+94-->[com.google.android.datatransport:transport-runtime:3.0.1] C:\Users\palag\.gradle\caches\transforms-3\9ffaec3cbec165b5a033426aee590dd3\transformed\jetified-transport-runtime-3.0.1\AndroidManifest.xml:28:13-37
+95            android:permission="android.permission.BIND_JOB_SERVICE" >
+95-->[com.google.android.datatransport:transport-runtime:3.0.1] C:\Users\palag\.gradle\caches\transforms-3\9ffaec3cbec165b5a033426aee590dd3\transformed\jetified-transport-runtime-3.0.1\AndroidManifest.xml:29:13-69
+96        </service>
+97
+98        <receiver
+98-->[com.google.android.datatransport:transport-runtime:3.0.1] C:\Users\palag\.gradle\caches\transforms-3\9ffaec3cbec165b5a033426aee590dd3\transformed\jetified-transport-runtime-3.0.1\AndroidManifest.xml:32:9-34:40
+99            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+99-->[com.google.android.datatransport:transport-runtime:3.0.1] C:\Users\palag\.gradle\caches\transforms-3\9ffaec3cbec165b5a033426aee590dd3\transformed\jetified-transport-runtime-3.0.1\AndroidManifest.xml:33:13-132
+100            android:exported="false" />
+100-->[com.google.android.datatransport:transport-runtime:3.0.1] C:\Users\palag\.gradle\caches\transforms-3\9ffaec3cbec165b5a033426aee590dd3\transformed\jetified-transport-runtime-3.0.1\AndroidManifest.xml:34:13-37
+101    </application>
+102
+103</manifest>

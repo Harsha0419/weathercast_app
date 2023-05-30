@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.bkhezry:prefser:v2.2.1-rx2@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/6d45674738f60a37427d684d4bf0aed7/transformed/jetified-prefser-v2.2.1-rx2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/6d45674738f60a37427d684d4bf0aed7/transformed/jetified-prefser-v2.2.1-rx2/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/6d45674738f60a37427d684d4bf0aed7/transformed/jetified-prefser-v2.2.1-rx2/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.bkhezry/prefser/v2.2.1-rx2/2d338a102e4fff78efa8852a0ea4b432839384df/prefser-v2.2.1-rx2-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.bkhezry/prefser/v2.2.1-rx2/bfdf8f6a27d12af4d296ae201618997a35bffbf3/prefser-v2.2.1-rx2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
